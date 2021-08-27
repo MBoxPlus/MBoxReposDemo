@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MBoxReposDemo_Example' do
+  pod 'MBoxReposDemo', :path => '../'
+
+  target 'MBoxReposDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
