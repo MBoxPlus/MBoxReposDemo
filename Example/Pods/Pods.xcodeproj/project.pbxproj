@@ -972,6 +972,37 @@
 			};
 			name = Release;
 		};
+		0FBD1995B1DC72FA4499DA86B812C572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8F0B4BA9871A98DD4A83846B968FB6 /* MBoxReposDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBoxReposDemo/MBoxReposDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo.modulemap";
+				PRODUCT_MODULE_NAME = MBoxReposDemo;
+				PRODUCT_NAME = MBoxReposDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		11C8FED75E0665EB9BA8772F851253D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5589EACA83A91CC1CCF1E951AFF498B1 /* Pods-MBoxReposDemo_Tests.debug.xcconfig */;
@@ -1035,37 +1066,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2D9CAD2FB1287A568EA102166B66FB45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75C802EBF5311DB37D0B45EC0DF3D89D /* MBoxReposDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBoxReposDemo/MBoxReposDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo.modulemap";
-				PRODUCT_MODULE_NAME = MBoxReposDemo;
-				PRODUCT_NAME = MBoxReposDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		67C4699A959114AE07E0802F3CE0B101 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1162,6 +1162,38 @@
 			};
 			name = Release;
 		};
+		7F651342B1B98285028F8F7F70D00798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C802EBF5311DB37D0B45EC0DF3D89D /* MBoxReposDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBoxReposDemo/MBoxReposDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo.modulemap";
+				PRODUCT_MODULE_NAME = MBoxReposDemo;
+				PRODUCT_NAME = MBoxReposDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		85FECA56D6FBE2AF09C0A66573F9C7A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E02B77F6C1B50FD9229515DA3D8021CA /* Pods-MBoxReposDemo_Tests.release.xcconfig */;
@@ -1195,36 +1227,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8AC4D7F6AEA62A3DDC7EF26F26CA6ED2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D8F0B4BA9871A98DD4A83846B968FB6 /* MBoxReposDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBoxReposDemo/MBoxReposDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo.modulemap";
-				PRODUCT_MODULE_NAME = MBoxReposDemo;
-				PRODUCT_NAME = MBoxReposDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8B30A8255A0DC2B5B35FADBFE987F59F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1413,8 +1415,8 @@
 		72C38364B6C7650730858321E7DDA64F /* Build configuration list for PBXNativeTarget "MBoxReposDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AC4D7F6AEA62A3DDC7EF26F26CA6ED2 /* Debug */,
-				2D9CAD2FB1287A568EA102166B66FB45 /* Release */,
+				0FBD1995B1DC72FA4499DA86B812C572 /* Debug */,
+				7F651342B1B98285028F8F7F70D00798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
