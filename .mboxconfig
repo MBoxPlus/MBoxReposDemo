@@ -1,0 +1,5 @@
+{
+    "podfile": "Example/Podfile",
+    "xcodeproj": "Example/LiveStreaming.xcodeproj",
+
+}
