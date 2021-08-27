@@ -31,7 +31,7 @@
 		0E6263AA10B0904DDF884F8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1C5FEF9140CA1E63A49E68A5 /* Pods_MBoxReposDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBoxReposDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DE1A09BC9370D3E0A5214E /* Pods-MBoxReposDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBoxReposDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-MBoxReposDemo_Tests/Pods-MBoxReposDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		37B7C22641AA72685EC3D97E /* MBoxReposDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBoxReposDemo.podspec; path = ../MBoxReposDemo.podspec; sourceTree = "<group>"; };
+		37B7C22641AA72685EC3D97E /* MBoxReposDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MBoxReposDemo.podspec; path = ../MBoxReposDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MBoxReposDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBoxReposDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };

@@ -1,6 +1,8 @@
 PODS:
   - Alamofire (5.4.3)
-  - MBoxReposDemo (0.1.0)
+  - MBoxReposDemo (0.1.0):
+    - Alamofire
+    - SnapKit
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
@@ -19,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  MBoxReposDemo: 2a57652211d5cb0e67585d2e0d25265bd86c343d
+  MBoxReposDemo: 0e0c290a34761e0028d37127e5d09d2e25a5b271
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
 PODFILE CHECKSUM: efd4bfa687858074418128139e9dbcb7a9ee95e5

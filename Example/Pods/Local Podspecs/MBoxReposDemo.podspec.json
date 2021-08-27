@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MBoxReposDemo/Classes/**/*"
+  "source_files": "MBoxReposDemo/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "Alamofire": [
+
+    ]
+  }
 }
