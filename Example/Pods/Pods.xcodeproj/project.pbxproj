@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A43A1828BCAB493FC29B0C04BEE952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1278B8EEA5B4D9DE044AC670194EADAF /* Pods-MBoxReposDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F506F4305B68D770B8B1B6E27CDC4F56 /* Pods-MBoxReposDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		193C733CA7781DDC034E76B82E924390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		200EBA1C8B01577C5CBE9EE6435E665A /* Pods-MBoxReposDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B23E2ABA481166682CC306E42C15AF /* Pods-MBoxReposDemo_Tests-dummy.m */; };
+		691ADFBC3D65DA0B21F4027E6FCDFAE1 /* MBoxReposDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 686EF5A2D4A4F3F5290F8A5FF178D212 /* MBoxReposDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F08960D6F51CAE716185FA780D6639 /* Pods-MBoxReposDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA825343F159D4687D0F2AF14DDAAE61 /* Pods-MBoxReposDemo_Example-dummy.m */; };
+		961E6CC6AB649D058DAFCD4037A52BDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9763047ACC2150BBDECC817E5BD017FC /* Pods-MBoxReposDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F58E3041A35949857A735E50DF5E8C4 /* Pods-MBoxReposDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5389E03D8820C56E077CB9ECA5BD436 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A817094E139578B0840CD1BFBBDB5 /* ReplaceMe.swift */; };
+		B8F297E2212D9CF7EF89366DDE141237 /* MBoxReposDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E997D614416AD0DB10DE5D303ED28C /* MBoxReposDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4511BB18DB480D446C85D243E13CBB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2CBD927A18F6E83A5E40633D0CA8236;
+			remoteInfo = "Pods-MBoxReposDemo_Example";
+		};
+		568F7EBCA310AE351E1CF6655428E507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A5E9A3B91C33319C8D8E90FE35DC1D;
+			remoteInfo = MBoxReposDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A25DA8607E13255FCAE02244E834A1 /* Pods_MBoxReposDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBoxReposDemo_Example.framework; path = "Pods-MBoxReposDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8D43D6A27B355103B3AF812610D733 /* MBoxReposDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MBoxReposDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E574CF44BE6E24266C0840BC21F4F35 /* Pods-MBoxReposDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBoxReposDemo_Example.modulemap"; sourceTree = "<group>"; };
+		110EFE35F814C7B5E15BD991BDEC927C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2147CD2B16DEEEF650950861122FFA0A /* MBoxReposDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBoxReposDemo-Info.plist"; sourceTree = "<group>"; };
+		2F58E3041A35949857A735E50DF5E8C4 /* Pods-MBoxReposDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBoxReposDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2FA8B11248C1F60518DF70852DC759AB /* Pods-MBoxReposDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBoxReposDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ED9561EF5DD9D71EDD13E95EE4FA74F /* Pods-MBoxReposDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBoxReposDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5589EACA83A91CC1CCF1E951AFF498B1 /* Pods-MBoxReposDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBoxReposDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58217E60C5E1F53655006208DD39684A /* Pods-MBoxReposDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBoxReposDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D8F0B4BA9871A98DD4A83846B968FB6 /* MBoxReposDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBoxReposDemo.debug.xcconfig; sourceTree = "<group>"; };
+		67F7DD7AB3AC1F206ED8581A28754443 /* Pods-MBoxReposDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBoxReposDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		686EF5A2D4A4F3F5290F8A5FF178D212 /* MBoxReposDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBoxReposDemo-umbrella.h"; sourceTree = "<group>"; };
+		70EA295D9A10C77FC44CA312485101F1 /* MBoxReposDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBoxReposDemo-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C802EBF5311DB37D0B45EC0DF3D89D /* MBoxReposDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBoxReposDemo.release.xcconfig; sourceTree = "<group>"; };
+		8A9980A094E962AD8D15AC8F3603EE8A /* Pods-MBoxReposDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBoxReposDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		94CD69ECE2A6C1773251A7FA436D7A14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA825343F159D4687D0F2AF14DDAAE61 /* Pods-MBoxReposDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBoxReposDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		C0133CC2142EA761B277A04D8597AC55 /* Pods-MBoxReposDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBoxReposDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		C45638F0CEDC3E82EC924ED5D54973C0 /* Pods-MBoxReposDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBoxReposDemo_Tests-Info.plist"; sourceTree = "<group>"; };
+		CFF6460097EBF38C9EDCD27CAD5A7AC9 /* MBoxReposDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBoxReposDemo.framework; path = MBoxReposDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C2552C04D9E5DB1E16D0B3D89F3B34 /* MBoxReposDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBoxReposDemo.modulemap; sourceTree = "<group>"; };
+		D746DA90EE57BD584B1E2697C700A9A9 /* Pods-MBoxReposDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBoxReposDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4A817094E139578B0840CD1BFBBDB5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MBoxReposDemo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DCE6EABFC915C33577D87BACC8984292 /* Pods-MBoxReposDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBoxReposDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E02B77F6C1B50FD9229515DA3D8021CA /* Pods-MBoxReposDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBoxReposDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7994B476B865742A625F49B544DF172 /* Pods-MBoxReposDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBoxReposDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F3B23E2ABA481166682CC306E42C15AF /* Pods-MBoxReposDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBoxReposDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		F506F4305B68D770B8B1B6E27CDC4F56 /* Pods-MBoxReposDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBoxReposDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		F7E997D614416AD0DB10DE5D303ED28C /* MBoxReposDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBoxReposDemo-dummy.m"; sourceTree = "<group>"; };
+		FCF824F1F1B01DCE50C756D9652A71FA /* Pods_MBoxReposDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBoxReposDemo_Tests.framework; path = "Pods-MBoxReposDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268EB59AEA22D52D15B4476AADA5D1D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193C733CA7781DDC034E76B82E924390 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B7A68EBC560A83BE00F54147EDF26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A43A1828BCAB493FC29B0C04BEE952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AC6FE6F2D5B85634B271ADD80A0867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961E6CC6AB649D058DAFCD4037A52BDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F4BE15F8E2CC509BF5C3C770F6C593 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C2552C04D9E5DB1E16D0B3D89F3B34 /* MBoxReposDemo.modulemap */,
+				F7E997D614416AD0DB10DE5D303ED28C /* MBoxReposDemo-dummy.m */,
+				2147CD2B16DEEEF650950861122FFA0A /* MBoxReposDemo-Info.plist */,
+				70EA295D9A10C77FC44CA312485101F1 /* MBoxReposDemo-prefix.pch */,
+				686EF5A2D4A4F3F5290F8A5FF178D212 /* MBoxReposDemo-umbrella.h */,
+				5D8F0B4BA9871A98DD4A83846B968FB6 /* MBoxReposDemo.debug.xcconfig */,
+				75C802EBF5311DB37D0B45EC0DF3D89D /* MBoxReposDemo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MBoxReposDemo";
+			sourceTree = "<group>";
+		};
+		39000034F7121D14D697E7704FDD5DDC /* Pods-MBoxReposDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0133CC2142EA761B277A04D8597AC55 /* Pods-MBoxReposDemo_Tests.modulemap */,
+				67F7DD7AB3AC1F206ED8581A28754443 /* Pods-MBoxReposDemo_Tests-acknowledgements.markdown */,
+				2FA8B11248C1F60518DF70852DC759AB /* Pods-MBoxReposDemo_Tests-acknowledgements.plist */,
+				F3B23E2ABA481166682CC306E42C15AF /* Pods-MBoxReposDemo_Tests-dummy.m */,
+				C45638F0CEDC3E82EC924ED5D54973C0 /* Pods-MBoxReposDemo_Tests-Info.plist */,
+				2F58E3041A35949857A735E50DF5E8C4 /* Pods-MBoxReposDemo_Tests-umbrella.h */,
+				5589EACA83A91CC1CCF1E951AFF498B1 /* Pods-MBoxReposDemo_Tests.debug.xcconfig */,
+				E02B77F6C1B50FD9229515DA3D8021CA /* Pods-MBoxReposDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-MBoxReposDemo_Tests";
+			path = "Target Support Files/Pods-MBoxReposDemo_Tests";
+			sourceTree = "<group>";
+		};
+		414677E6377AE42C7F0425FDF2EAC834 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16E53BA813CB3C5959C5E818B089210 /* MBoxReposDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		637B84F3223BD549EFBE8CD1606914B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				110EFE35F814C7B5E15BD991BDEC927C /* LICENSE */,
+				0A8D43D6A27B355103B3AF812610D733 /* MBoxReposDemo.podspec */,
+				94CD69ECE2A6C1773251A7FA436D7A14 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		786080C1C32A64BF977A688125BD2A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6460097EBF38C9EDCD27CAD5A7AC9 /* MBoxReposDemo.framework */,
+				04A25DA8607E13255FCAE02244E834A1 /* Pods_MBoxReposDemo_Example.framework */,
+				FCF824F1F1B01DCE50C756D9652A71FA /* Pods_MBoxReposDemo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9DD440FB50100F9E3E2E8D59FD6E53 /* Pods-MBoxReposDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0E574CF44BE6E24266C0840BC21F4F35 /* Pods-MBoxReposDemo_Example.modulemap */,
+				58217E60C5E1F53655006208DD39684A /* Pods-MBoxReposDemo_Example-acknowledgements.markdown */,
+				3ED9561EF5DD9D71EDD13E95EE4FA74F /* Pods-MBoxReposDemo_Example-acknowledgements.plist */,
+				BA825343F159D4687D0F2AF14DDAAE61 /* Pods-MBoxReposDemo_Example-dummy.m */,
+				DCE6EABFC915C33577D87BACC8984292 /* Pods-MBoxReposDemo_Example-frameworks.sh */,
+				8A9980A094E962AD8D15AC8F3603EE8A /* Pods-MBoxReposDemo_Example-Info.plist */,
+				F506F4305B68D770B8B1B6E27CDC4F56 /* Pods-MBoxReposDemo_Example-umbrella.h */,
+				D746DA90EE57BD584B1E2697C700A9A9 /* Pods-MBoxReposDemo_Example.debug.xcconfig */,
+				E7994B476B865742A625F49B544DF172 /* Pods-MBoxReposDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-MBoxReposDemo_Example";
+			path = "Target Support Files/Pods-MBoxReposDemo_Example";
+			sourceTree = "<group>";
+		};
+		C16E53BA813CB3C5959C5E818B089210 /* MBoxReposDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC4A817094E139578B0840CD1BFBBDB5 /* ReplaceMe.swift */,
+				637B84F3223BD549EFBE8CD1606914B8 /* Pod */,
+				32F4BE15F8E2CC509BF5C3C770F6C593 /* Support Files */,
+			);
+			name = MBoxReposDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				414677E6377AE42C7F0425FDF2EAC834 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				786080C1C32A64BF977A688125BD2A57 /* Products */,
+				E2D8FBDF02AFB68851897ED9C1D8D452 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D8FBDF02AFB68851897ED9C1D8D452 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DD440FB50100F9E3E2E8D59FD6E53 /* Pods-MBoxReposDemo_Example */,
+				39000034F7121D14D697E7704FDD5DDC /* Pods-MBoxReposDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		178EA3AC9F519B39E87E5B82CA5331B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691ADFBC3D65DA0B21F4027E6FCDFAE1 /* MBoxReposDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FF7E86A1AD41C42A3390AC7EFE7734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9763047ACC2150BBDECC817E5BD017FC /* Pods-MBoxReposDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4F08AF83D8EBCE4EDBD7601EA3663B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1278B8EEA5B4D9DE044AC670194EADAF /* Pods-MBoxReposDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B19671A44F4CEDB7F1F36E050805B14F /* Pods-MBoxReposDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5D9B13DCEC2B404B9F34937C2E8C4E /* Build configuration list for PBXNativeTarget "Pods-MBoxReposDemo_Tests" */;
+			buildPhases = (
+				32FF7E86A1AD41C42A3390AC7EFE7734 /* Headers */,
+				2402887DD131500494AC0998D4FC54EA /* Sources */,
+				D0AC6FE6F2D5B85634B271ADD80A0867 /* Frameworks */,
+				BA1A6E10A09E91C5C777241836FC9174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2A50DE7EF6CBB9C20F31A14F53E206 /* PBXTargetDependency */,
+			);
+			name = "Pods-MBoxReposDemo_Tests";
+			productName = "Pods-MBoxReposDemo_Tests";
+			productReference = FCF824F1F1B01DCE50C756D9652A71FA /* Pods_MBoxReposDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2CBD927A18F6E83A5E40633D0CA8236 /* Pods-MBoxReposDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDE2E5CC847399696598AAF583779CB /* Build configuration list for PBXNativeTarget "Pods-MBoxReposDemo_Example" */;
+			buildPhases = (
+				6B4F08AF83D8EBCE4EDBD7601EA3663B /* Headers */,
+				2BDF4B9F723C75BD9525B45C20C9D47F /* Sources */,
+				B5B7A68EBC560A83BE00F54147EDF26F /* Frameworks */,
+				529C521FC569E567545738B5160C112F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815D5C48426F61EAEE02701ABD6D5EF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MBoxReposDemo_Example";
+			productName = "Pods-MBoxReposDemo_Example";
+			productReference = 04A25DA8607E13255FCAE02244E834A1 /* Pods_MBoxReposDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2A5E9A3B91C33319C8D8E90FE35DC1D /* MBoxReposDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CEFA8947C28535954A4B97883A170D1 /* Build configuration list for PBXNativeTarget "MBoxReposDemo" */;
+			buildPhases = (
+				178EA3AC9F519B39E87E5B82CA5331B1 /* Headers */,
+				67B425A1D6D6FFC275981147332EEBC8 /* Sources */,
+				268EB59AEA22D52D15B4476AADA5D1D6 /* Frameworks */,
+				299D2FA9B6B32306B68F0CDD27FCE18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBoxReposDemo;
+			productName = MBoxReposDemo;
+			productReference = CFF6460097EBF38C9EDCD27CAD5A7AC9 /* MBoxReposDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 786080C1C32A64BF977A688125BD2A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A5E9A3B91C33319C8D8E90FE35DC1D /* MBoxReposDemo */,
+				C2CBD927A18F6E83A5E40633D0CA8236 /* Pods-MBoxReposDemo_Example */,
+				B19671A44F4CEDB7F1F36E050805B14F /* Pods-MBoxReposDemo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299D2FA9B6B32306B68F0CDD27FCE18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529C521FC569E567545738B5160C112F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1A6E10A09E91C5C777241836FC9174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2402887DD131500494AC0998D4FC54EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200EBA1C8B01577C5CBE9EE6435E665A /* Pods-MBoxReposDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDF4B9F723C75BD9525B45C20C9D47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F08960D6F51CAE716185FA780D6639 /* Pods-MBoxReposDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B425A1D6D6FFC275981147332EEBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F297E2212D9CF7EF89366DDE141237 /* MBoxReposDemo-dummy.m in Sources */,
+				B5389E03D8820C56E077CB9ECA5BD436 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F2A50DE7EF6CBB9C20F31A14F53E206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MBoxReposDemo_Example";
+			target = C2CBD927A18F6E83A5E40633D0CA8236 /* Pods-MBoxReposDemo_Example */;
+			targetProxy = 4511BB18DB480D446C85D243E13CBB84 /* PBXContainerItemProxy */;
+		};
+		815D5C48426F61EAEE02701ABD6D5EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBoxReposDemo;
+			target = D2A5E9A3B91C33319C8D8E90FE35DC1D /* MBoxReposDemo */;
+			targetProxy = 568F7EBCA310AE351E1CF6655428E507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9714314519BB2AF529F4A14DDD36DA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8F0B4BA9871A98DD4A83846B968FB6 /* MBoxReposDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBoxReposDemo/MBoxReposDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo.modulemap";
+				PRODUCT_MODULE_NAME = MBoxReposDemo;
+				PRODUCT_NAME = MBoxReposDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8DB376C50E2F6D745F1F585B3E91CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5589EACA83A91CC1CCF1E951AFF498B1 /* Pods-MBoxReposDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBoxReposDemo_Tests/Pods-MBoxReposDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBoxReposDemo_Tests/Pods-MBoxReposDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD9AE7A50AFC5284D01AA8AA6BC24D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02B77F6C1B50FD9229515DA3D8021CA /* Pods-MBoxReposDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBoxReposDemo_Tests/Pods-MBoxReposDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBoxReposDemo_Tests/Pods-MBoxReposDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C64E48DEEF92FB89A44418A8F60E5A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D746DA90EE57BD584B1E2697C700A9A9 /* Pods-MBoxReposDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBoxReposDemo_Example/Pods-MBoxReposDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBoxReposDemo_Example/Pods-MBoxReposDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D78A96286776F101BC9A729B3AF43169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7994B476B865742A625F49B544DF172 /* Pods-MBoxReposDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBoxReposDemo_Example/Pods-MBoxReposDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBoxReposDemo_Example/Pods-MBoxReposDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4DC26474845DB4ED7403027DA804C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C802EBF5311DB37D0B45EC0DF3D89D /* MBoxReposDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBoxReposDemo/MBoxReposDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBoxReposDemo/MBoxReposDemo.modulemap";
+				PRODUCT_MODULE_NAME = MBoxReposDemo;
+				PRODUCT_NAME = MBoxReposDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CEFA8947C28535954A4B97883A170D1 /* Build configuration list for PBXNativeTarget "MBoxReposDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9714314519BB2AF529F4A14DDD36DA78 /* Debug */,
+				F4DC26474845DB4ED7403027DA804C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDE2E5CC847399696598AAF583779CB /* Build configuration list for PBXNativeTarget "Pods-MBoxReposDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64E48DEEF92FB89A44418A8F60E5A4D /* Debug */,
+				D78A96286776F101BC9A729B3AF43169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5D9B13DCEC2B404B9F34937C2E8C4E /* Build configuration list for PBXNativeTarget "Pods-MBoxReposDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DB376C50E2F6D745F1F585B3E91CE0 /* Debug */,
+				BD9AE7A50AFC5284D01AA8AA6BC24D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

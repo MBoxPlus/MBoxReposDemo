@@ -1,0 +1,22 @@
+{
+  "name": "MBoxReposDemo",
+  "version": "0.1.0",
+  "summary": "A short description of MBoxReposDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/杨彬/MBoxReposDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "杨彬": "yangbin.jacky@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/杨彬/MBoxReposDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MBoxReposDemo/Classes/**/*"
+}

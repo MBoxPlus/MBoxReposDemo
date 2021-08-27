@@ -1,0 +1,6 @@
+framework module Pods_MBoxReposDemo_Tests {
+  umbrella header "Pods-MBoxReposDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

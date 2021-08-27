@@ -1,0 +1,6 @@
+framework module MBoxReposDemo {
+  umbrella header "MBoxReposDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

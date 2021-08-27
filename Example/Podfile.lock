@@ -1,0 +1,16 @@
+PODS:
+  - MBoxReposDemo (0.1.0)
+
+DEPENDENCIES:
+  - MBoxReposDemo (from `../`)
+
+EXTERNAL SOURCES:
+  MBoxReposDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBoxReposDemo: 2a57652211d5cb0e67585d2e0d25265bd86c343d
+
+PODFILE CHECKSUM: fece0d69af105216c0952f8d0c4ddf49769de64a
+
+COCOAPODS: 1.10.2
