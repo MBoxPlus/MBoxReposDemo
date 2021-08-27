@@ -1,4 +1,4 @@
 {
     "podfile": "Example/Podfile",
-    "xcodeproj": "Example/Podfile.lock"
+    "podlock": "Example/Podfile.lock"
 }
