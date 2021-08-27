@@ -1,5 +1,5 @@
 {
     "podfile": "Example/Podfile",
-    "xcodeproj": "Example/LiveStreaming.xcodeproj",
+    "xcodeproj": "Example/MBoxReposDemo.xcodeproj",
 
 }
