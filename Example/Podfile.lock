@@ -6,9 +6,9 @@ PODS:
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.4)
+  - Alamofire (= 5.4.3)
   - MBoxReposDemo (from `../`)
-  - SnapKit (~> 5.0.0)
+  - SnapKit (= 5.0.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -24,6 +24,6 @@ SPEC CHECKSUMS:
   MBoxReposDemo: fa75ff37288df8bab0ef0c29160ddd33b5e521e8
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 790526c0fd90eafc77f328417d5d66df1c452c78
+PODFILE CHECKSUM: 32b974cbe3d2cb56153fa8a876b4c7a75fe8c9ac
 
 COCOAPODS: 1.10.2
