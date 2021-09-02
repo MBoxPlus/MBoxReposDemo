@@ -20,10 +20,10 @@
   },
   "source_files": "MBoxReposDemo/Classes/**/*",
   "dependencies": {
-    "SnapKit": [
+    "Alamofire": [
 
     ],
-    "Alamofire": [
+    "SwiftyJSON": [
 
     ]
   }

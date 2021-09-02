@@ -47,9 +47,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## SnapKit
+## SwiftyJSON
 
-Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
+The MIT License (MIT)
+
+Copyright (c) 2017 Ruoyu Fu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

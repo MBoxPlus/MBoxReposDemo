@@ -72,7 +72,9 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
+			<string>The MIT License (MIT)
+
+Copyright (c) 2017 Ruoyu Fu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -95,7 +97,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>SnapKit</string>
+			<string>SwiftyJSON</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
